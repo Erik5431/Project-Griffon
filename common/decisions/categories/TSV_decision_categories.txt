@@ -1,0 +1,11 @@
+desert_war_category = {
+	icon = generic_independence
+	priority = 105
+	visible = {
+		has_war = yes
+	}
+	allowed = {
+		original_tag = TSV
+	}
+	visible_when_empty = no
+}

@@ -1,0 +1,91 @@
+ideas = {
+	country = {
+		TSV_rushed_arms_production_idea = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+		}
+		TSV_police_powers = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.2
+				political_power_gain = -0.55
+			}
+		}
+		##Shared between both griffon states
+		
+		TVS_all_alone_almost = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_production_bonus
+			removal_cost = -1
+			rule = {
+					can_join_factions = no
+			}
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = 0.05
+				industrial_capacity_factory = 0.1
+				surrender_limit = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		
+		TVS_all_alone_for_reals
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_production_bonus
+			removal_cost = -1
+			rule = {
+					can_join_factions = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.1
+				war_support_factor = 0.05
+				stability_factor = -0.20
+				surrender_limit = 0.2
+				army_core_defence_factor = 0.15
+			}
+		}
+		
+		##End of shared ideas
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
